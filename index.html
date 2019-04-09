@@ -10,7 +10,7 @@
     <title>Review - Home</title>
 
     <!-- add own css -->
-    
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
     <!-- this is an HTML comment -->
@@ -34,7 +34,7 @@
     <main>
       <h1>Main</h1>
       <!-- #personal creates div with personal id-->
-      <div id="personal">
+      <div id="personal" class="bg-red">
         <h3>4LeafCoder</h3>
         <button onClick="alert('I don\'t know why you say Goodbye, I say Hello')">Click Me!</button>
         <br/>
@@ -42,16 +42,18 @@
         <img src="https://i.imgur.com/iWKad22.jpg" alt="TheUsual" width="100"/>
       </div> <!-- end personal section -->
 
-      <div id="hobbies">
+      <div id="hobbies" class="bg-red">
         <h3>Hobbies</h3>
         <ol>
-          <li>Boil'em</li>
-          <li>Mash'em</li>
-          <li>Stick'em in a stew</li>
+          <!-- <div> -->
+            <li>Boil'em</li>
+            <li>Mash'em</li>
+            <li>Stick'em in a stew</li>
+          <!-- </div> -->
         </ol>
       </div> <!-- end hobbies section -->
 
-      <div id="products">
+      <div id="products" class="bg-red">
         <h3>Products Tables</h3>
         <!-- table>(thead>tr>th*4)+(tbody>tr>td*4)+(tfoot>tr>th*2) -->
         <table>

@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+  font-size: 32px;
+}
+
+#personal {
+  /* ids take precidence over classes */
+  /* background-color: steelblue; */
+}
+
+.bg-red {
+  background-color: red;
+}
+
+h3 {
+  background-color: blue;
+  color: white;
+  font-family: cursive;
+}
+
+/* ol li { */
+/* > direct descendent */
+ol>li {
+  color: white;
+}
