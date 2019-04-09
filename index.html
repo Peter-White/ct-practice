@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HTML & CSS Review for Python">
+    <meta name="author" content="Sound of Silent Hill">
+    <meta name="keywords" content="HTML,CSS,Python,Prework,Coding,Temple">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-
+    scallable=yes">
+    <title>Review - Home</title>
+  </head>
+  <body>
+    <!-- this is an HTML comment -->
+    <header>
+      <h1>Header</h1>
+      <!-- nav>ul>li*2>a then Tab -->
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="#below">Bottom of Page</a></li>
+        </ul>
+      </nav>
+      <!-- nav.test -->
+      <!-- nav with class name test -->
+
+      <!-- start of main section, where we will display our hobbies,
+      a list of products, and an image -->
+    </header>
+
+    <main>
+      <h1>Main</h1>
+      <!-- #personal creates div with personal id-->
+      <div id="personal">
+        <h3>4LeafCoder</h3>
+        <button onClick="alert('I don\'t know why you say Goodbye, I say Hello')">Click Me!</button>
+        <br/>
+        <br/>
+        <img src="https://i.imgur.com/iWKad22.jpg" alt="TheUsual" width="100"/>
+      </div> <!-- end personal section -->
+
+      <div id="hobbies">
+        <h3>Hobbies</h3>
+        <ol>
+          <li>Boil'em</li>
+          <li>Mash'em</li>
+          <li>Stick'em in a stew</li>
+        </ol>
+      </div> <!-- end hobbies section -->
+
+      <div id="products">
+        <h3>Products Tables</h3>
+        <!-- table>(thead>tr>th*4)+(tbody>tr>td*4)+(tfoot>tr>th*2) -->
+        <table>
+          <thead>
+            <tr>
+              <th>Quantity</th>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>666</td>
+              <td>MEMES</td>
+              <td>$69.00</td>
+              <td>$420.00</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="3">Total:</th>
+              <th>$420.00</th>
+            </tr>
+          </tfoot>
+        </table>
+      </div> <!-- end products table section -->
+    </main>
+
+    <footer>
+      <h1>Footer</h1>
+      <p id="below">I'll meet you at the bottom</p>
+    </footer>
+  </body>
+</html>
